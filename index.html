@@ -34,25 +34,37 @@
         </div>
         <div class="form-area">
           <form id="form1" action="#" method="post">
-            <label for="first_name">First Name:</label>
-            <input type="text" name="first_name" id="first_name" />
-            <label for="last_name">First Name:</label>
-            <input type="text" name="last_name" id="last_name" />
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" />
-            <label for="phone_number">Phone Number:</label>
-            <input type="tel" name="phone_number" id="phone_number" />
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" />
-            <label for="passwordConfirm">Confirm Password</label>
-            <input
-              type="password"
-              name="passwordConfirm"
-              id="passwordConfirm"
-            />
+            <div class="input-div">
+              <label for="first_name">First Name:</label>
+              <input type="text" name="first_name" id="first_name" />
+            </div>
+            <div class="input-div">
+              <label for="last_name">First Name:</label>
+              <input type="text" name="last_name" id="last_name" />
+            </div>
+            <div class="input-div">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="input-div">
+              <label for="phone_number">Phone Number:</label>
+              <input type="tel" name="phone_number" id="phone_number" />
+            </div>
+            <div class="input-div">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div class="input-div">
+              <label for="passwordConfirm">Confirm Password</label>
+              <input
+                type="password"
+                name="passwordConfirm"
+                id="passwordConfirm"
+              />
+            </div>
           </form>
-          <button form="form1" type="submit">Create Account</button>
-          <button form="form1" type="reset">Reset</button>
+          <button id="submit" form="form1" type="submit">Create Account</button>
+          <button id="reset" form="form1" type="reset">Reset</button>
         </div>
         <div class="footer"></div>
       </div>
